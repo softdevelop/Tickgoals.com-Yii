@@ -1,0 +1,208 @@
+/*!
+ * TickGoals
+ *
+ * Copyright 2012 TickGoals.
+ * All RIght Reserved, TickGoals.
+ * http://www.tickgoals.com
+ *
+ * Auther: Aftab Khalid
+ */
+
+.logo{
+	width:141px;
+	height:32px;
+	margin:7px 0 0;
+	padding:0;
+	float:left;
+	display:block;
+	background:url(../images/tick-goals-logo.png) no-repeat;
+}
+.logo a{
+	display:block;
+	width:141px;
+	height:32px;
+	text-indent:-999em;
+}
+
+.author{
+	padding:0 0 10px;
+	display:block;
+}
+
+.theme-box{
+	background-color:#FFF;
+	border:solid 1px #999;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+
+.theme-box h1,
+.theme-box h2,
+.theme-box h3,
+.theme-box h4,
+.theme-box h5,
+.theme-box h6{
+	margin-top:0;
+}
+
+.outer-box{
+	min-height:375px;
+}
+
+.m-top-25{
+	margin-top:25px;
+}
+.m-top-20{
+	margin-top:20px;
+}
+.m-top-15{
+	margin-top:15px;
+}
+.m-top-10{
+	margin-top:10px;
+}
+.m-bottom-10{
+	margin-bottom:10px;
+}
+.m-bottom-15{
+	margin-bottom:15px;
+}
+.m-bottom-30{
+	margin-bottom:30px;
+}
+
+.p-20{
+	padding:20px;
+}
+.p-12{
+	padding:12px;
+}
+.p-bottom-none{
+	padding-bottom:0;
+}
+
+.edit-goals{
+	height:20px;
+}
+.edit-goals form{
+	margin:0;
+	padding:0;
+}
+.edit-goals form input{
+	padding:0 5px;
+}
+
+.links-footer {
+	color:#999;
+}
+.links-footer a{
+	color:#333;
+}
+
+.align-center{
+	text-align:center;
+}
+
+.modal-header h4{
+	margin-bottom:0;
+}
+
+/**/
+
+.top-bar {
+	background-color: #1C506E;
+	background-image: -moz-linear-gradient(top, #23658B, #1C506E);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#23658B), to(#1C506E));
+	background-image: -webkit-linear-gradient(top, #23658B, #1C506E);
+	background-image: -o-linear-gradient(top, #23658B, #1C506E);
+	background-image: linear-gradient(to bottom, #23658B, #1C506E);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff23658B', endColorstr='#ff1C506E', GradientType=0);
+	-webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, .5);
+    box-shadow:  		0px 2px 10px 0px rgba(0, 0, 0, .5);
+	height:45px;
+	position:relative;
+	z-index:2;
+}
+
+.top-links {
+	margin-top:12px;
+	color:#a5bdcb;
+}
+.top-links a{
+	color:#a5bdcb;
+	text-decoration:none;
+}
+.top-links a:hover{
+	color:#fff;
+}
+
+.theme-box-head{
+	background-color: #dedede;
+	background-image: -moz-linear-gradient(top, #ffffff, #dedede);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#dedede));
+	background-image: -webkit-linear-gradient(top, #ffffff, #dedede);
+	background-image: -o-linear-gradient(top, #ffffff, #dedede);
+	background-image: linear-gradient(to bottom, #ffffff, #dedede);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffdedede', GradientType=0);
+	-webkit-box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, .3);
+    box-shadow:  		0px 1px 6px 0px rgba(0, 0, 0, .3);
+	padding:8px;
+	-webkit-border-radius: 4px 4px 0px 0px;
+	-moz-border-radius: 4px 4px 0px 0px;
+	border-radius: 4px 4px 0px 0px;
+	border-bottom:solid 1px #999;
+}
+
+.theme-box-head h4{
+	margin:2px 0 0 6px;;
+	line-height:25px;
+}
+
+.m-d,
+.m-d span{
+	font-size:11px;
+	color:#999;
+}
+
+.home-header{
+	background-image: url("../images/bright_squares.jpg");
+	padding:60px 0;
+	position:relative;
+	z-index:1;
+	border-bottom:solid 1px #ccc;
+}
+
+.body-home{
+	background:none;
+	background-color:#FFFFFF;
+}
+
+
+
+@media (max-width: 767px) {
+	.mobile-wrap{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	.home-header{
+		padding:20px 20px 35px ;
+	}
+	.social-login-buttons a{
+		display:block;
+		margin-bottom:8px;
+	}
+	.logo{
+		float:none;
+		display:block;
+		margin:0 auto;
+		margin-top:7px;
+	}
+}
+.errorMessage{margin: -5px 0 0 0;font-size: 12px;color: red;}
+span.required{color: red;}
+#Goal_name_em_{margin-top:10px;}
+.edit-goals{color:green;font-weight:bold}
+.margin-top-5{margin-top:5px;}

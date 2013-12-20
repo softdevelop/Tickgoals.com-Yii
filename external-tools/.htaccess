@@ -1,0 +1,13 @@
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} /fill/(71-84|300-400|182-165|58-53|95-87|120-160|150-150|49-59|89-82|380-200|380-380|490-460|85-85|60-60)/.*?\.(gif|png|jpg|jpeg)
+RewriteRule fill/([\d]+)\-([\d]+)/(.*)?\.(gif|png|jpg|jpeg|GIF|PNG|JPG|JPEG) ../../external-tools/fill.php?w=$1&h=$2&name=$3&ext=$4&uri=%{REQUEST_URI} [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} /thumbs/(800-600|600-560|490-530)/.*?\.(gif|png|jpg|jpeg)
+RewriteRule thumbs/([\d]+)\-([\d]+)/(.*)?\.(gif|png|jpg|jpeg|GIF|PNG|JPG|JPEG) ../../external-tools/thumbs.php?w=$1&h=$2&name=$3&ext=$4&uri=%{REQUEST_URI} [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* default/no-photo.png [L]

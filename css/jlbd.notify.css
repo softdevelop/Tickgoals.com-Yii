@@ -1,0 +1,23 @@
+.notify-container{background-color:#ffe9ad; border:1px solid #fab418; color:#565656; font-size:12px; cursor:pointer; height:auto; overflow:hidden; padding:10px; position:fixed; width:510px; z-index:12000; }
+.message-container{background-color:#ffe9ad;border-color:#f9b725}
+.success-container{background-color:#effeb9;border-color:#98c700}
+.info-container{background-color:#d1e4f3;border-color:#4d8fcb}
+.error-container{background-color:#fccac1;border-color:#eb5439}
+
+.notify-container .jlbd-ico-title{float:left;margin-right:18px;position:relative;}
+.notify-container .jlbd-ico-title h2{padding: .4em 0;}
+.notify-container .jlbd-ico-thumb{background:url(../img/front/bg-jlbd-icon.png) -102px 0 no-repeat; float:left; height:31px; margin-right:10px; overflow:hidden; text-indent:-1983px; width:34px;}
+.notify-container .message-ico-thumb{background-position:-102px 0}
+.notify-container .success-ico-thumb{background-position:0 0;}
+.notify-container .info-ico-thumb{background-position:-35px 0}
+.notify-container .error-ico-thumb{background-position:-69px 0}
+
+.notify-container .jlbd-title-mess{border-bottom:none; color:#565656; font-size:14px; float:left; overflow:hidden; text-transform:uppercase }
+
+.notify-container p.notify-message{ margin-top:4px; height:auto; overflow:hidden}
+.notify-container a.notify-close{color:#fab418;  cursor:pointer;font-weight:bolder; height: 12px; position:absolute;right: 2px; top:2px;  width: 12px;}
+.notify-close-02{display: block !important;}
+.message-container a.notify-close{color:#fab418 }
+.success-container a.notify-close{color:#98c700}
+.info-container a.notify-close{color:#4d8fcb}
+.error-container a.notify-close{color:#eb5439}
