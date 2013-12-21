@@ -58,6 +58,7 @@ class SiteController extends TickGoalsController
 			// }
 		// }
 		
+		
 		die('a');
 	}
 	public function actionAddList(){
