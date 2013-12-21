@@ -2,9 +2,6 @@
 
 class SiteController extends TickGoalsController
 {
-	/**
-	 * Declares class-based actions.
-	 */
 	public function actions()
 	{
 		return array(

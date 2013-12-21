@@ -24,10 +24,10 @@ class GoalsController extends TickGoalsController
 	}
 	public function actionEditGoals($gId=NULL,$listId=NULL){
 		$model = Goal::model()->findByPk(outBin($gId));
-		// jsonOut($_POST);
+		//  jsonOut($_POST);
 		if(isset($_POST))
 		{
-			// $model->attributes=$_POST['Goal'];
+			//  $model->attributes=$_POST['Goal'];
 			$model->time = time();			
 			$model->name = $_POST['name'];			
 			$model->reminder = $_POST['reminder'];			
