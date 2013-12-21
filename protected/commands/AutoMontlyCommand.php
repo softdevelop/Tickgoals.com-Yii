@@ -1,7 +1,6 @@
 <?php
 class AutoMontlyCommand extends CConsoleCommand {
     public function run($args) {
-      // $to      = 'thinhpq@appdev.vn';
 
 		// $message = "1111Hi
 		// Your password for TickGoals.com is \r\n\r\n Thanks ";
