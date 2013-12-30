@@ -113,6 +113,7 @@ class GoalsController extends TickGoalsController
 	}
 	public function actionAdded($listId=NULL){
 		
+		
 		if(isset($_POST['Goal']))
 		{
 			$model = new Goal;
@@ -127,9 +128,6 @@ class GoalsController extends TickGoalsController
 			if($model->validate()){
 
 				if($model->save()){
-					// Yii::app()->user->setFlash('success', 'Add goal successfully.');
-					// $this->redirect(Yii::app()->createUrl('/goals/list',array('listId'=>$listId)));
-					// $this->redirect(Yii::app()->createUrl('/goals?uId'.outStr(currentUser()->id)));
 					$date = strtotime($model->completion);
 					$_date = date("Y-m-d",$model->time);
 					$date = date("d M Y",$date);

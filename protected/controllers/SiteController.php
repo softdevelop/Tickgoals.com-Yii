@@ -42,22 +42,6 @@ class SiteController extends TickGoalsController
 		dump($minute,false);
 		$users = Users::model()->findAll();
 	 
-
-		
-		// if(!empty($users)){
-			// foreach($users as $key=>$u){
-				// $hour = $u->hour;
-				// $minute = $u->minute;
-				// if($hour<10) $hour = "0".$hour;
-				// if($minute<10) $minute = "0".$minute;
-				// $_hour = date("H");
-				// $_minute = date("i");
-				// dump($hour."-".$_hour,false);
-				// dump($minute."-".$_minute,false);
-				
-			// }
-		// }
-		
 		
 		die('a');
 	}
@@ -105,6 +89,7 @@ class SiteController extends TickGoalsController
 			$callback = YahooUtil::current_url()."?in_popup";
 			$sessionStore = new NativeSessionStore();
 			// pass the credentials to get an auth url.
+			
 			// this URL will be used for the pop-up.
 			$auth_url = YahooSession::createAuthorizationUrl(OAUTH_CONSUMER_KEY, OAUTH_CONSUMER_SECRET, $callback, $sessionStore);
 		}else{
